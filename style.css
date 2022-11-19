@@ -27,3 +27,24 @@ section {
     text-transform: capitalize;
     color: #444;
 }
+
+.blog .box-container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-column: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.blog .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+        object-fit: cover;
+}
