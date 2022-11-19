@@ -80,3 +80,27 @@ section {
 .blog .box-container .box .content h3{
     font-size: 2rem;
 }
+
+.blog .box-container .box .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: #777;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: 0.1rem solid #bd18b4;
+    background: #ffeeff;
+    color: #bd18b4;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    background: #bd18b4;
+    color: #ffeeff;
+}
