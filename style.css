@@ -36,6 +36,14 @@ section {
     gap: 2rem;
 }
 
+.blog .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.blog .box-container .box.shadow{
+    box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important;
+}
+
 .blog .box-container .box .image{
     height: 25rem;
     overflow: hidden;
@@ -47,4 +55,28 @@ section {
     width: 100%;
     -o-object-fit: cover;
         object-fit: cover;
+}
+
+.blog .box-container .box .image h3{
+    background-color: #fff;
+    color: #444;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+.blog .box-container .box .image h3 i{
+    color: #bd18b4;
+}
+
+.blog .box-container .box .content{
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.blog .box-container .box .content h3{
+    font-size: 2rem;
 }
