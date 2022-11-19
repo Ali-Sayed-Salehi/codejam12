@@ -19,3 +19,11 @@ html {
 section {
     padding: 5rem 10%;
 }
+
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: #444;
+}
