@@ -2,7 +2,7 @@
 A blog for McGill's CodeJam memories
 
 ## Adding a Post
-### mMin Page Changes
+### Min Page Changes
 Add a post to the main page by changing this section of 
 the code in **index.html**:
 ```html
