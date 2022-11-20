@@ -55,7 +55,7 @@ section {
 
 .blog .box-container .box .image h3{
     background-color: #fff;
-    color: #444;
+    color: rgb(63, 62, 62);
     position: absolute;
     top: 2rem;
     left: 1rem;
@@ -65,7 +65,7 @@ section {
 }
 
 .blog .box-container .box .image h3 i{
-    color: #bd18b4;
+    color: #8b18bd;
 }
 
 .blog .box-container .box .content{
@@ -98,7 +98,7 @@ section {
 
 .btn:hover{
     background: #191747;
-    color: #ffeeff;
+    color: #f7ddfb;
 }
 
 
@@ -139,7 +139,7 @@ section {
 }
 
 .post .box-container .box .image h3 i{
-    color: #bd18b4;
+    color: #9f18bd;
 }
 
 .post .box-container .box .content{
